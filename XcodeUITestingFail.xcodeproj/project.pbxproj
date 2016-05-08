@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		144157421CDFC28000C88465 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144157411CDFC28000C88465 /* AppDelegate.swift */; };
-		144157441CDFC28000C88465 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144157431CDFC28000C88465 /* ViewController.swift */; };
-		144157471CDFC28000C88465 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 144157451CDFC28000C88465 /* Main.storyboard */; };
 		144157491CDFC28000C88465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 144157481CDFC28000C88465 /* Assets.xcassets */; };
 		1441574C1CDFC28000C88465 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1441574A1CDFC28000C88465 /* LaunchScreen.storyboard */; };
-		144157571CDFC28000C88465 /* XcodeUITestingFailUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144157561CDFC28000C88465 /* XcodeUITestingFailUITests.swift */; };
+		144157571CDFC28000C88465 /* UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144157561CDFC28000C88465 /* UITests.swift */; };
+		144157651CDFC2C700C88465 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144157621CDFC2C700C88465 /* Controller.swift */; };
+		144157661CDFC2C700C88465 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144157621CDFC2C700C88465 /* Controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +28,13 @@
 /* Begin PBXFileReference section */
 		1441573E1CDFC28000C88465 /* XcodeUITestingFail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeUITestingFail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		144157411CDFC28000C88465 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		144157431CDFC28000C88465 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		144157461CDFC28000C88465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		144157481CDFC28000C88465 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1441574B1CDFC28000C88465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1441574D1CDFC28000C88465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		144157521CDFC28000C88465 /* XcodeUITestingFailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeUITestingFailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		144157561CDFC28000C88465 /* XcodeUITestingFailUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeUITestingFailUITests.swift; sourceTree = "<group>"; };
+		144157521CDFC28000C88465 /* UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		144157561CDFC28000C88465 /* UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
 		144157581CDFC28000C88465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		144157621CDFC2C700C88465 /* Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				144157401CDFC28000C88465 /* XcodeUITestingFail */,
-				144157551CDFC28000C88465 /* XcodeUITestingFailUITests */,
+				144157551CDFC28000C88465 /* UITests */,
 				1441573F1CDFC28000C88465 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				1441573E1CDFC28000C88465 /* XcodeUITestingFail.app */,
-				144157521CDFC28000C88465 /* XcodeUITestingFailUITests.xctest */,
+				144157521CDFC28000C88465 /* UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,8 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				144157411CDFC28000C88465 /* AppDelegate.swift */,
-				144157431CDFC28000C88465 /* ViewController.swift */,
-				144157451CDFC28000C88465 /* Main.storyboard */,
+				144157621CDFC2C700C88465 /* Controller.swift */,
 				144157481CDFC28000C88465 /* Assets.xcassets */,
 				1441574A1CDFC28000C88465 /* LaunchScreen.storyboard */,
 				1441574D1CDFC28000C88465 /* Info.plist */,
@@ -87,12 +85,13 @@
 			path = XcodeUITestingFail;
 			sourceTree = "<group>";
 		};
-		144157551CDFC28000C88465 /* XcodeUITestingFailUITests */ = {
+		144157551CDFC28000C88465 /* UITests */ = {
 			isa = PBXGroup;
 			children = (
-				144157561CDFC28000C88465 /* XcodeUITestingFailUITests.swift */,
+				144157561CDFC28000C88465 /* UITests.swift */,
 				144157581CDFC28000C88465 /* Info.plist */,
 			);
+			name = UITests;
 			path = XcodeUITestingFailUITests;
 			sourceTree = "<group>";
 		};
@@ -116,9 +115,9 @@
 			productReference = 1441573E1CDFC28000C88465 /* XcodeUITestingFail.app */;
 			productType = "com.apple.product-type.application";
 		};
-		144157511CDFC28000C88465 /* XcodeUITestingFailUITests */ = {
+		144157511CDFC28000C88465 /* UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1441575E1CDFC28000C88465 /* Build configuration list for PBXNativeTarget "XcodeUITestingFailUITests" */;
+			buildConfigurationList = 1441575E1CDFC28000C88465 /* Build configuration list for PBXNativeTarget "UITests" */;
 			buildPhases = (
 				1441574E1CDFC28000C88465 /* Sources */,
 				1441574F1CDFC28000C88465 /* Frameworks */,
@@ -129,9 +128,9 @@
 			dependencies = (
 				144157541CDFC28000C88465 /* PBXTargetDependency */,
 			);
-			name = XcodeUITestingFailUITests;
+			name = UITests;
 			productName = XcodeUITestingFailUITests;
-			productReference = 144157521CDFC28000C88465 /* XcodeUITestingFailUITests.xctest */;
+			productReference = 144157521CDFC28000C88465 /* UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -167,7 +166,7 @@
 			projectRoot = "";
 			targets = (
 				1441573D1CDFC28000C88465 /* XcodeUITestingFail */,
-				144157511CDFC28000C88465 /* XcodeUITestingFailUITests */,
+				144157511CDFC28000C88465 /* UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -179,7 +178,6 @@
 			files = (
 				1441574C1CDFC28000C88465 /* LaunchScreen.storyboard in Resources */,
 				144157491CDFC28000C88465 /* Assets.xcassets in Resources */,
-				144157471CDFC28000C88465 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				144157441CDFC28000C88465 /* ViewController.swift in Sources */,
+				144157651CDFC2C700C88465 /* Controller.swift in Sources */,
 				144157421CDFC28000C88465 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,7 +204,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				144157571CDFC28000C88465 /* XcodeUITestingFailUITests.swift in Sources */,
+				144157571CDFC28000C88465 /* UITests.swift in Sources */,
+				144157661CDFC2C700C88465 /* Controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +220,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		144157451CDFC28000C88465 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				144157461CDFC28000C88465 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1441574A1CDFC28000C88465 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -387,7 +378,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		1441575E1CDFC28000C88465 /* Build configuration list for PBXNativeTarget "XcodeUITestingFailUITests" */ = {
+		1441575E1CDFC28000C88465 /* Build configuration list for PBXNativeTarget "UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1441575F1CDFC28000C88465 /* Debug */,
