@@ -18,23 +18,14 @@ class Controller: UIViewController {
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
 
-        self.delayView(name: "Delay 1")
-    }
-
-    func delayView(name name: String) {
-        let delayTime = dispatch_time(DISPATCH_TIME_NOW, Int64(1 * Double(NSEC_PER_SEC)))
-        dispatch_after(delayTime, dispatch_get_main_queue()) {
-            let view = UIView(frame: CGRect(x: 0, y: 0, width: 200, height: 200))
-            view.accessibilityLabel = name
-            self.view.addSubview(view)
-        }
+        self.addDelayView(name: "Delay 1")
     }
 
     func saveAction() {
         let alertController = UIAlertController(title: "Hello", message: nil, preferredStyle: .Alert)
         alertController.addAction(UIAlertAction(title: "Yes", style: .Default) { action in
             self.view.accessibilityLabel = "Background"
-            self.delayView(name: "Delay 2")
+            self.addDelayView(name: "Delay 2")
             })
         self.presentViewController(alertController, animated: true, completion: nil)
     }

@@ -36,18 +36,19 @@ class UITests: XCTestCase {
         let delayView2 = app.otherElements["Delay 2"]
         self.waitForElementToAppear(delayView2)
 
-        XCTAssertTrue(app.otherElements["Background"].exists)
+        self.waitForElementToAppear(app.otherElements["Background"])
     }
 }
 
 extension XCTestCase {
-    func waitForElementToAppear(element: XCUIElement, timeout: NSTimeInterval = 5,  file: String = #file, line: UInt = #line) {
+    func waitForElementToAppear(element: XCUIElement) {
+        let timeout: NSTimeInterval = 5
         let existsPredicate = NSPredicate(format: "exists == true")
         expectationForPredicate(existsPredicate, evaluatedWithObject: element, handler: nil)
         waitForExpectationsWithTimeout(timeout) { error in
             if error != nil {
                 let message = "Failed to find \(element) after \(timeout) seconds."
-                self.recordFailureWithDescription(message, inFile: file, atLine: line, expected: true)
+                self.recordFailureWithDescription(message, inFile: #file, atLine: #line, expected: true)
             }
         }
     }
