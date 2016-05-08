@@ -11,7 +11,7 @@ class UITests: XCTestCase {
         super.tearDown()
     }
 
-    // This should work. It was recorded by Xcode.
+    // This should work. It was recorded by Xcode
     func testFailing() {
         let app = XCUIApplication()
         app.navigationBars["XcodeUITestingFail."].buttons["Add"].tap()
