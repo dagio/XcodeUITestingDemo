@@ -3,7 +3,6 @@ import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow? = {
         let window = UIWindow(frame: UIScreen.mainScreen().bounds)
 
