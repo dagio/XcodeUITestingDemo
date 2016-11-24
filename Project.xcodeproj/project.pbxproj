@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		143A76931CDFEF9B00FF0605 /* UIViewController+Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143A76921CDFEF9B00FF0605 /* UIViewController+Testing.swift */; };
-		143A76941CDFEF9B00FF0605 /* UIViewController+Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143A76921CDFEF9B00FF0605 /* UIViewController+Testing.swift */; };
 		144157421CDFC28000C88465 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144157411CDFC28000C88465 /* AppDelegate.swift */; };
 		144157491CDFC28000C88465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 144157481CDFC28000C88465 /* Assets.xcassets */; };
 		1441574C1CDFC28000C88465 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1441574A1CDFC28000C88465 /* LaunchScreen.storyboard */; };
@@ -28,7 +26,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		143A76921CDFEF9B00FF0605 /* UIViewController+Testing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Testing.swift"; sourceTree = "<group>"; };
 		1441573E1CDFC28000C88465 /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		144157411CDFC28000C88465 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		144157481CDFC28000C88465 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -81,7 +78,6 @@
 			children = (
 				144157411CDFC28000C88465 /* AppDelegate.swift */,
 				144157621CDFC2C700C88465 /* Controller.swift */,
-				143A76921CDFEF9B00FF0605 /* UIViewController+Testing.swift */,
 				144157481CDFC28000C88465 /* Assets.xcassets */,
 				1441574A1CDFC28000C88465 /* LaunchScreen.storyboard */,
 				1441574D1CDFC28000C88465 /* Info.plist */,
@@ -202,7 +198,6 @@
 			files = (
 				144157651CDFC2C700C88465 /* Controller.swift in Sources */,
 				144157421CDFC28000C88465 /* AppDelegate.swift in Sources */,
-				143A76931CDFEF9B00FF0605 /* UIViewController+Testing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +207,6 @@
 			files = (
 				144157571CDFC28000C88465 /* UITests.swift in Sources */,
 				144157661CDFC2C700C88465 /* Controller.swift in Sources */,
-				143A76941CDFEF9B00FF0605 /* UIViewController+Testing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,9 +326,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = XcodeUITestingFail/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Project/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = demo.XcodeUITestingFail;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.XcodeUITesting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0.1;
 			};
@@ -344,9 +338,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = XcodeUITestingFail/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Project/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = demo.XcodeUITestingFail;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.XcodeUITesting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0.1;
 			};
@@ -355,24 +349,26 @@
 		1441575F1CDFC28000C88465 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = XcodeUITestingFailUITests/Info.plist;
+				INFOPLIST_FILE = UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = demo.XcodeUITestingFailUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.XcodeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0.1;
-				TEST_TARGET_NAME = XcodeUITestingFail;
+				TEST_TARGET_NAME = Project;
 			};
 			name = Debug;
 		};
 		144157601CDFC28000C88465 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = XcodeUITestingFailUITests/Info.plist;
+				INFOPLIST_FILE = UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = demo.XcodeUITestingFailUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.XcodeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0.1;
-				TEST_TARGET_NAME = XcodeUITestingFail;
+				TEST_TARGET_NAME = Project;
 			};
 			name = Release;
 		};

@@ -18,15 +18,12 @@ class Controller: UIViewController {
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-
-        addDelayView(name: "Delay 1")
     }
 
     func saveAction() {
         let alertController = UIAlertController(title: "Hello", message: nil, preferredStyle: .alert)
         alertController.addAction(UIAlertAction(title: "Yes", style: .default) { action in
             self.view.accessibilityLabel = "Background"
-            self.addDelayView(name: "Delay 2")
             })
         present(alertController, animated: true, completion: nil)
     }
