@@ -11,15 +11,13 @@ class UITests: XCTestCase {
         super.tearDown()
     }
 
-    // This should work. It was recorded by Xcode
     func testFailing() {
         let app = XCUIApplication()
         app.navigationBars["XcodeUITestingFail."].buttons["Add"].tap()
-        app.alerts["Hello"].collectionViews.buttons["Yes"].tap()
+        app.alerts["Hello"].buttons["Yes"].tap()
         XCTAssertTrue(app.otherElements["Background"].exists)
     }
 
-    // This works but requires workarounds
     func testWorking() {
         let app = XCUIApplication()
 
@@ -31,7 +29,7 @@ class UITests: XCTestCase {
         let alert = app.alerts["Hello"]
         self.waitForElementToAppear(alert)
 
-        alert.collectionViews.buttons["Yes"].tap()
+        alert.buttons["Yes"].tap()
 
         let delayView2 = app.otherElements["Delay 2"]
         self.waitForElementToAppear(delayView2)
@@ -41,14 +39,14 @@ class UITests: XCTestCase {
 }
 
 extension XCTestCase {
-    func waitForElementToAppear(element: XCUIElement) {
-        let timeout: NSTimeInterval = 5
+    func waitForElementToAppear(_ element: XCUIElement) {
+        let timeout: TimeInterval = 5
         let existsPredicate = NSPredicate(format: "exists == true")
-        expectationForPredicate(existsPredicate, evaluatedWithObject: element, handler: nil)
-        waitForExpectationsWithTimeout(timeout) { error in
+        expectation(for: existsPredicate, evaluatedWith: element, handler: nil)
+        waitForExpectations(timeout: timeout) { error in
             if error != nil {
                 let message = "Failed to find \(element) after \(timeout) seconds."
-                self.recordFailureWithDescription(message, inFile: #file, atLine: #line, expected: true)
+                self.recordFailure(withDescription: message, inFile: #file, atLine: #line, expected: true)
             }
         }
     }
