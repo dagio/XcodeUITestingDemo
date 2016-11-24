@@ -2,7 +2,7 @@
 
 ## What's this?
 
-This is a demo of using Xcode's UI Testing, it checks for when a button in an alert view is pressed.
+This is a demo of using Xcode's UI Testing, it checks for when a button in an alert view is pressed. Previously there were issues with Xcode 7, this feature works much better in Xcode 8. Great work, Xcode team! :clap:
 
 ## Old README
 I trusted you Xcode UI Tests, I trusted you and you failed me.
