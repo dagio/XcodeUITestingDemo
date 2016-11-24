@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		143A76921CDFEF9B00FF0605 /* UIViewController+Testing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Testing.swift"; sourceTree = "<group>"; };
-		1441573E1CDFC28000C88465 /* XcodeUITestingFail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeUITestingFail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1441573E1CDFC28000C88465 /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		144157411CDFC28000C88465 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		144157481CDFC28000C88465 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1441574B1CDFC28000C88465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 		144157351CDFC28000C88465 = {
 			isa = PBXGroup;
 			children = (
-				144157401CDFC28000C88465 /* XcodeUITestingFail */,
+				144157401CDFC28000C88465 /* Project */,
 				144157551CDFC28000C88465 /* UITests */,
 				1441573F1CDFC28000C88465 /* Products */,
 			);
@@ -70,13 +70,13 @@
 		1441573F1CDFC28000C88465 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1441573E1CDFC28000C88465 /* XcodeUITestingFail.app */,
+				1441573E1CDFC28000C88465 /* Project.app */,
 				144157521CDFC28000C88465 /* UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		144157401CDFC28000C88465 /* XcodeUITestingFail */ = {
+		144157401CDFC28000C88465 /* Project */ = {
 			isa = PBXGroup;
 			children = (
 				144157411CDFC28000C88465 /* AppDelegate.swift */,
@@ -86,7 +86,7 @@
 				1441574A1CDFC28000C88465 /* LaunchScreen.storyboard */,
 				1441574D1CDFC28000C88465 /* Info.plist */,
 			);
-			path = XcodeUITestingFail;
+			path = Project;
 			sourceTree = "<group>";
 		};
 		144157551CDFC28000C88465 /* UITests */ = {
@@ -95,16 +95,15 @@
 				144157561CDFC28000C88465 /* UITests.swift */,
 				144157581CDFC28000C88465 /* Info.plist */,
 			);
-			name = UITests;
-			path = XcodeUITestingFailUITests;
+			path = UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1441573D1CDFC28000C88465 /* XcodeUITestingFail */ = {
+		1441573D1CDFC28000C88465 /* Project */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1441575B1CDFC28000C88465 /* Build configuration list for PBXNativeTarget "XcodeUITestingFail" */;
+			buildConfigurationList = 1441575B1CDFC28000C88465 /* Build configuration list for PBXNativeTarget "Project" */;
 			buildPhases = (
 				1441573A1CDFC28000C88465 /* Sources */,
 				1441573B1CDFC28000C88465 /* Frameworks */,
@@ -114,9 +113,9 @@
 			);
 			dependencies = (
 			);
-			name = XcodeUITestingFail;
+			name = Project;
 			productName = XcodeUITestingFail;
-			productReference = 1441573E1CDFC28000C88465 /* XcodeUITestingFail.app */;
+			productReference = 1441573E1CDFC28000C88465 /* Project.app */;
 			productType = "com.apple.product-type.application";
 		};
 		144157511CDFC28000C88465 /* UITests */ = {
@@ -158,7 +157,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 144157391CDFC28000C88465 /* Build configuration list for PBXProject "XcodeUITestingFail" */;
+			buildConfigurationList = 144157391CDFC28000C88465 /* Build configuration list for PBXProject "Project" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -171,7 +170,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1441573D1CDFC28000C88465 /* XcodeUITestingFail */,
+				1441573D1CDFC28000C88465 /* Project */,
 				144157511CDFC28000C88465 /* UITests */,
 			);
 		};
@@ -222,7 +221,7 @@
 /* Begin PBXTargetDependency section */
 		144157541CDFC28000C88465 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1441573D1CDFC28000C88465 /* XcodeUITestingFail */;
+			target = 1441573D1CDFC28000C88465 /* Project */;
 			targetProxy = 144157531CDFC28000C88465 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -380,7 +379,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		144157391CDFC28000C88465 /* Build configuration list for PBXProject "XcodeUITestingFail" */ = {
+		144157391CDFC28000C88465 /* Build configuration list for PBXProject "Project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				144157591CDFC28000C88465 /* Debug */,
@@ -389,7 +388,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1441575B1CDFC28000C88465 /* Build configuration list for PBXNativeTarget "XcodeUITestingFail" */ = {
+		1441575B1CDFC28000C88465 /* Build configuration list for PBXNativeTarget "Project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1441575C1CDFC28000C88465 /* Debug */,
