@@ -7,405 +7,406 @@ class UITests: XCTestCase {
         continueAfterFailure = false
     }
 
-    func test1() {
+    func test001() {
         runtTheTest()
     }
 
-    func test2() {
+    func test002() {
         runtTheTest()
     }
 
-    func test3() {
+    func test003() {
         runtTheTest()
     }
 
-    func test4() {
+    func test004() {
         runtTheTest()
     }
 
-    func test5() {
+    func test005() {
         runtTheTest()
     }
 
-    func test6() {
+    func test006() {
         runtTheTest()
     }
 
-    func test7() {
+    func test007() {
         runtTheTest()
     }
 
-    func test8() {
+    func test008() {
         runtTheTest()
     }
 
-    func test9() {
+    func test009() {
         runtTheTest()
     }
 
-    func test10() {
+    func test010() {
         runtTheTest()
     }
 
-    func test11() {
+    func test011() {
         runtTheTest()
     }
 
-    func test12() {
+    func test012() {
         runtTheTest()
     }
 
-    func test13() {
+    func test013() {
         runtTheTest()
     }
 
-    func test14() {
+    func test014() {
         runtTheTest()
     }
 
-    func test15() {
+    func test015() {
         runtTheTest()
     }
 
-    func test16() {
+    func test016() {
         runtTheTest()
     }
 
-    func test17() {
+    func test017() {
         runtTheTest()
     }
 
-    func test18() {
+    func test018() {
         runtTheTest()
     }
 
-    func test19() {
+    func test019() {
         runtTheTest()
     }
 
-    func test20() {
+    func test020() {
         runtTheTest()
     }
 
-    func test21() {
+    func test021() {
         runtTheTest()
     }
 
-    func test22() {
+    func test022() {
         runtTheTest()
     }
 
-    func test23() {
+    func test023() {
         runtTheTest()
     }
 
-    func test24() {
+    func test024() {
         runtTheTest()
     }
 
-    func test25() {
+    func test025() {
         runtTheTest()
     }
 
-    func test26() {
+    func test026() {
         runtTheTest()
     }
 
-    func test27() {
+    func test027() {
         runtTheTest()
     }
 
-    func test28() {
+    func test028() {
         runtTheTest()
     }
 
-    func test29() {
+    func test029() {
         runtTheTest()
     }
 
-    func test30() {
+    func test030() {
         runtTheTest()
     }
 
-    func test31() {
+    func test031() {
         runtTheTest()
     }
 
-    func test32() {
+    func test032() {
         runtTheTest()
     }
 
-    func test33() {
+    func test033() {
         runtTheTest()
     }
 
-    func test34() {
+    func test034() {
         runtTheTest()
     }
 
-    func test35() {
+    func test035() {
         runtTheTest()
     }
 
-    func test36() {
+    func test036() {
         runtTheTest()
     }
 
-    func test37() {
+    func test037() {
         runtTheTest()
     }
 
-    func test38() {
+    func test038() {
         runtTheTest()
     }
 
-    func test39() {
+    func test039() {
         runtTheTest()
     }
 
-    func test40() {
+    func test040() {
         runtTheTest()
     }
 
-    func test41() {
+    func test041() {
         runtTheTest()
     }
 
-    func test42() {
+    func test042() {
         runtTheTest()
     }
 
-    func test43() {
+    func test043() {
         runtTheTest()
     }
 
-    func test44() {
+    func test044() {
         runtTheTest()
     }
 
-    func test45() {
+    func test045() {
         runtTheTest()
     }
 
-    func test46() {
+    func test046() {
         runtTheTest()
     }
 
-    func test47() {
+    func test047() {
         runtTheTest()
     }
 
-    func test48() {
+    func test048() {
         runtTheTest()
     }
 
-    func test49() {
+    func test049() {
         runtTheTest()
     }
 
-    func test50() {
+    func test050() {
         runtTheTest()
     }
 
-    func test51() {
+    func test051() {
         runtTheTest()
     }
 
-    func test52() {
+    func test052() {
         runtTheTest()
     }
 
-    func test53() {
+    func test053() {
         runtTheTest()
     }
 
-    func test54() {
+    func test054() {
         runtTheTest()
     }
 
-    func test55() {
+    func test055() {
         runtTheTest()
     }
 
-    func test56() {
+    func test056() {
         runtTheTest()
     }
 
-    func test57() {
+    func test057() {
         runtTheTest()
     }
 
-    func test58() {
+    func test058() {
         runtTheTest()
     }
 
-    func test59() {
+    func test059() {
         runtTheTest()
     }
 
-    func test60() {
+    func test060() {
         runtTheTest()
     }
 
-    func test61() {
+    func test061() {
         runtTheTest()
     }
 
-    func test62() {
+    func test062() {
         runtTheTest()
     }
 
-    func test63() {
+    func test063() {
         runtTheTest()
     }
 
-    func test64() {
+    func test064() {
         runtTheTest()
     }
 
-    func test65() {
+    func test065() {
         runtTheTest()
     }
 
-    func test66() {
+    func test066() {
         runtTheTest()
     }
 
-    func test67() {
+    func test067() {
         runtTheTest()
     }
 
-    func test68() {
+    func test068() {
         runtTheTest()
     }
 
-    func test69() {
+    func test069() {
         runtTheTest()
     }
 
-    func test70() {
+    func test070() {
         runtTheTest()
     }
 
-    func test71() {
+    func test071() {
         runtTheTest()
     }
 
-    func test72() {
+    func test072() {
         runtTheTest()
     }
 
-    func test73() {
+    func test073() {
         runtTheTest()
     }
 
-    func test74() {
+    func test074() {
         runtTheTest()
     }
 
-    func test75() {
+    func test075() {
         runtTheTest()
     }
 
-    func test76() {
+    func test076() {
         runtTheTest()
     }
 
-    func test77() {
+    func test077() {
         runtTheTest()
     }
 
-    func test78() {
+    func test078() {
         runtTheTest()
     }
 
-    func test79() {
+    func test079() {
         runtTheTest()
     }
 
-    func test80() {
+    func test080() {
         runtTheTest()
     }
 
-    func test81() {
+    func test081() {
         runtTheTest()
     }
 
-    func test82() {
+    func test082() {
         runtTheTest()
     }
 
-    func test83() {
+    func test083() {
         runtTheTest()
     }
 
-    func test84() {
+    func test084() {
         runtTheTest()
     }
 
-    func test85() {
+    func test085() {
         runtTheTest()
     }
 
-    func test86() {
+    func test086() {
         runtTheTest()
     }
 
-    func test87() {
+    func test087() {
         runtTheTest()
     }
 
-    func test88() {
+    func test088() {
         runtTheTest()
     }
 
-    func test89() {
+    func test089() {
         runtTheTest()
     }
 
-    func test90() {
+    func test090() {
         runtTheTest()
     }
 
-    func test91() {
+    func test091() {
         runtTheTest()
     }
     
-    func test92() {
+    func test092() {
         runtTheTest()
     }
     
-    func test93() {
+    func test093() {
         runtTheTest()
     }
     
-    func test94() {
+    func test094() {
         runtTheTest()
     }
     
-    func test95() {
+    func test095() {
         runtTheTest()
     }
     
-    func test96() {
+    func test096() {
         runtTheTest()
     }
     
-    func test97() {
+    func test097() {
         runtTheTest()
     }
     
-    func test98() {
+    func test098() {
         runtTheTest()
     }
     
-    func test99() {
+    func test099() {
         runtTheTest()
     }
     
     func test100() {
         runtTheTest()
     }
+
 }
 
 extension UITests {
@@ -413,12 +414,13 @@ extension UITests {
         let app = XCUIApplication()
         app.launch()
 
-        app.textFields.element.clearAndEnterText(text: "This is a long string")
+        // Instead... do nothing
 
-        app.navigationBars["Project."].buttons["Add"].tap()
-        app.alerts["Hello"].buttons["Yes"].tap()
-        XCTAssertTrue(app.otherElements["Background"].exists)
-        
+//        app.textFields.element.clearAndEnterText(text: "This is a long string")
+//        app.navigationBars["Project."].buttons["Add"].tap()
+//        app.alerts["Hello"].buttons["Yes"].tap()
+//        XCTAssertTrue(app.otherElements["Background"].exists)
+
         app.terminate()
     }
 }
