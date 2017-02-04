@@ -1,0 +1,5 @@
+# https://github.com/fastlane/fastlane/tree/master/gym
+
+scheme                      "Project"
+output_directory            "./build"
+clean                       false

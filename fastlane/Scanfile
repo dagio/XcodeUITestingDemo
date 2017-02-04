@@ -1,0 +1,6 @@
+scheme                      "Project"
+devices                     ["iPhone 7 (10.2)"]
+clean                       true
+skip_build                  false
+output_types                "html"
+derived_data_path           "./DerivedData/"
