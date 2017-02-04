@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Controller" customModule="Project" customModuleProvider="target">
             <connections>
+                <outlet property="textField" destination="les-F9-M0T" id="smk-ee-3Gl"/>
                 <outlet property="view" destination="iN0-l3-epB" id="5wW-bc-mQn"/>
             </connections>
         </placeholder>
